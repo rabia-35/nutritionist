@@ -1,0 +1,41 @@
+
+.header .header-bg{background-image: url("../../../public/images/banner-bg.jpg"); background-repeat: no-repeat; 
+    background-size: cover; background-position: center; height: 720px; width:100%;background-blend-mode: color;
+    background-color: #00000085; padding-top: 50px;
+}
+.header .header-bg .navbar {transition: all .5s ease-in-out;}
+.header .header-bg .navbar .nav-link{color: #f0f0f0; font-size: 18px; padding:0 15px; transition: 0.4s ease;}
+.header .header-bg .navbar .nav-link:hover{color:#a3d921}
+.header .header-bg .navbar .navbar-brand img{height: 70px;}
+.header .header-bg .banner-body{text-align: left; color: #f0f0f0;}
+.header .header-bg .banner-body img{ height: 650px; width: auto;}
+.header .header-bg .banner-body .title{margin-top:120px}
+.header .header-bg .banner-body h1{font-size: 4em;font-weight: 400;line-height: 1.15;margin: 0 0 0.3em;}
+.header .header-bg .banner-body .subTitle {letter-spacing: initial;font-size: 1.3em; margin-bottom: 0.75em;clear: both;line-height: 1.2;}
+.header .header-bg .nav-link i{color: #f0f0f0; cursor: pointer; font-size: 23px;}
+.header .header-bg .nav-link .fa-phone { font-size: 15px;}
+.header .header-bg .nav-link i:hover{color:#a3d921}
+
+.header  .box{text-align: start; background-color: #fff; padding: 20px 25px; min-height: 260px;}
+.header  .box img{width:15%; height: auto;}
+.header .box h2{ font-size: 20px; font-weight: 600; letter-spacing: -1px; padding-top: 15px;}
+.header .box p{line-height: 20px; font-size: 15px; color:gray}
+
+@media (min-width:768px) {
+    .header .boxs-area{position: absolute;bottom: -124px;left: 140px;right: 140px;}
+    .navbar-expand-lg .navbar-nav {justify-content: end; }
+}
+@media (max-width:768px) {
+    .header .header-bg .banner-body img {
+        height: auto;
+        width: 100%;
+        border-bottom: 2px solid #8fc13a;
+    }
+    .header .header-bg{height: 100%;}
+    .header .header-bg .banner-body .title {margin-top: 40px;}
+    .navbar-toggler{border: 2px solid #8fc13a ;}
+    .navbar-toggler:hover{box-shadow: #b5cd8a;}
+    .nav-item {text-align: start !important;} 
+    .header .header-bg .navbar .nav-link{ padding:5px 15px;}
+    .header .header-bg .navbar .nav-link:before{content: "\f138"; font-family: Fontawesome; margin-right: 15px; color: #8fc13a; }
+}
