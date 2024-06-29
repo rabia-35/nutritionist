@@ -1,0 +1,8 @@
+    .comments-title .title{padding: 0px 0px 100px;}
+    .comments .mySwiper{margin-top:100px; border-radius: 20px;} 
+    .comments .mySwiper .swiper-slide{background-color:#ececec; padding: 25px; }
+    .comments{background-image: url("../../../public/images/comments.jpg"); background-repeat: no-repeat; 
+        background-size: cover; background-position: center; height: 700px; width:100%;background-blend-mode: color;
+        background-color: #00000085;  }
+    .comments .mySwiper img{height:450px; width:100%;  }
+   
