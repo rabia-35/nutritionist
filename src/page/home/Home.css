@@ -1,0 +1,27 @@
+.services{padding: 200px 0px 100px; background-color: aliceblue;}
+ .title h1{font-size: 50px; }
+.title p{width: 55%; margin: 0 auto; line-height: 25px;}
+ .title .title-logo{overflow: hidden;}
+ .title .title-logo:before,  .title .title-logo:after {
+  background-color:gray;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.title .title-logo:before {
+  right: 1em;
+  margin-left: -50%;
+}
+
+.title .title-logo:after {
+  left: 1em;
+  margin-right: -50%;
+}
+.services h2{font-size: 25px;}
+.services p{color:gray}
+
+
