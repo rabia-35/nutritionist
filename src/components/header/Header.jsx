@@ -43,7 +43,7 @@ function Navbar() {
                       <a className="nav-link"  href="#">Home</a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#blogs">Blogs</a>
+                      <a className="nav-link" href="#blogs">SSS</a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="#paket">Online Diyet Paketleri</a>
