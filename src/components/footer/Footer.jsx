@@ -37,7 +37,7 @@ const Footer = () => {
           <div class="container">
               <div>
                 <p> E-posta göndermek için </p>
-                <a className="footer-call-to-action-button button" href="#" target="_self">Tıkla </a> 
+                <a className="footer-call-to-action-button button" href="mailto:dyt.sumeyyetop@gmail.com">Tıkla </a> 
               </div>
               <form className='d-none'>
                 <div class="field" tabindex="1">
