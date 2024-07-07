@@ -21,7 +21,7 @@ const Footer = () => {
       </svg>
       <div className="footer-content container">
        <div className="row">
-          <div className="footer-content-column col-12 col-md-6 ">
+          <div className="footer-content-column col-12  ">
             <div className="footer-logo">
               <a className="footer-logo-link" href="#">
                 <img src="./images/logo.png" alt="logo" />
@@ -33,9 +33,13 @@ const Footer = () => {
             
           </div>
         
-          <div className="footer-content-column col-12 col-md-4 offset-md-2">
+          <div className="footer-content-column col-12">
           <div class="container">
-              <form>
+              <div>
+                <p> E-posta göndermek için </p>
+                <a className="footer-call-to-action-button button" href="#" target="_self">Tıkla </a> 
+              </div>
+              <form className='d-none'>
                 <div class="field" tabindex="1">
                   <label for="username">
                     <i class="far fa-user"></i>Adınız
