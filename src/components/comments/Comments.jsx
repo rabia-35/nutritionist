@@ -1,7 +1,6 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import "./Comments.css"
-import Aos from 'aos';
-import "aos/dist/aos.css";
+
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -12,9 +11,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 
 const Comments = () => {
 
-  useEffect(()=>{
-    Aos.init({duration:2000})
-  },[])
+
 
 const client=[]
 
@@ -36,7 +33,7 @@ for (let i = 1; i < 9; i++) {
         <div className="comments">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-md-6 offset-md-5" data-aos= "fade-left">
+              <div className="col-12 col-md-6 offset-md-5" >
                 <Swiper
                 autoplay={{  delay: 2000,  disableOnInteraction: false,}}
                   pagination={{  dynamicBullets: true,}}
