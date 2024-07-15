@@ -26,7 +26,7 @@ const Footer = () => {
               <a className="footer-logo-link" href="#">
                 <img src="./images/logo.png" alt="logo" />
               </a>
-              <p>Merhabalar, Ben <span className="title" data-aos="fade-left">Diyetisyen Sümeyye Top</span> <br/> 
+              <p>Merhabalar, Ben <span className="title" data-aos="fade-in">Diyetisyen Sümeyye Top</span> <br/> 
                 2018 yılında Muğla Sıtkı Koçman Üniversitesinden mezun oldum. 2018 -2021 yılları arasında online danışmanlık hizmeti verdim. 2021 yılında Ankara’da Bi Diyet Beslenme Danışmanlığında ofis diyetisyeni olarak devam etti. 2022 yılında İzmir’e dönerken online hizmeti sürdürmeye başladım. 
                 2024 yılında arınma kampında diyetisyen olarak görev aldım. Şuan hala online olarak birçok kişiye beslenme hizmeti sunmaktayım.</p>
             </div>
