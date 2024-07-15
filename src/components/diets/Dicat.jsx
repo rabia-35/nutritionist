@@ -1,9 +1,15 @@
-import React, {useContext} from 'react'
+import React, {useContext, useEffect} from 'react'
 import "./Diets.css"
 import { DietContext } from '../../context/Diets'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Dicat = () => {
 const diets=useContext(DietContext)
+
+useEffect(()=>{
+  Aos.init({duration:2000})
+},[])
 
     return (
       <div className='dicat'id='paket' >
@@ -20,7 +26,7 @@ const diets=useContext(DietContext)
                 <ul className="cards">
                   {
                     diets.map((item, ind)=>(
-                      <li key={ind} className="cards_item">
+                      <li key={ind} className="cards_item"  data-aos={ "fade-right" }>
                         <div className="card">
                           <div className="card_image"><img src={item.imgsUrl} alt="mixed vegetable salad in a mason jar. " /></div>
                           <div className="card_content">

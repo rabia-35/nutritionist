@@ -1,12 +1,15 @@
-import React,{ useContext } from 'react';
+import React,{ useContext, useEffect } from 'react';
 import { SssContext } from '../../context/Sss'
 import "./Blog.css"
-
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 
 function Blog() {
 
-  
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
 const sss=useContext(SssContext);
 
   return (
@@ -23,7 +26,7 @@ const sss=useContext(SssContext);
     <div className="blog-elements-holder ">
       {
         sss.map((item ,ind)=>(
-          <div key={ind} className="blog-info-box-holder"   >
+          <div key={ind} className="blog-info-box-holder" data-aos={ind===0  ? "fade-right" : ind===1 ? "fade-up" : "fade-left"}  >
             <div className="blog-info-box-inner">
               <div className="blog-ib-front-holder">
                   <div  className="blog-ib-top-holder"  >

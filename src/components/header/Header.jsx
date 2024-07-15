@@ -1,5 +1,8 @@
 import React, {useState, useEffect, useContext} from 'react'
 import { ServicesContext } from '../../context/Services';
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 import "./Header.css"
 
 function Navbar() {
@@ -19,6 +22,10 @@ function Navbar() {
     return () =>
       window.removeEventListener('scroll', listenScrollEvent);
   }, []);
+
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
 
   const services = useContext(ServicesContext);
 
@@ -90,7 +97,7 @@ function Navbar() {
                 services.map((item, ind)=>(
 
                     <div key={ind} className='col-12 col-md-4 '>
-                      <div className='box'>
+                      <div className='box' data-aos="fade-up">
                         <img src={item.imgsUrl} />
                         <h2>{item.title} </h2>
                         <p>{item.desc} </p>
