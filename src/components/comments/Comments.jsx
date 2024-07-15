@@ -36,7 +36,7 @@ for (let i = 1; i < 9; i++) {
         <div className="comments">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-md-6 offset-md-6" data-aos= "fade-left">
+              <div className="col-12 col-md-6 offset-md-5" data-aos= "fade-left">
                 <Swiper
                 autoplay={{  delay: 2000,  disableOnInteraction: false,}}
                   pagination={{  dynamicBullets: true,}}
