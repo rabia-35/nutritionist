@@ -21,7 +21,7 @@ const Footer = () => {
       </svg>
       <div className="footer-content container">
        <div className="row">
-          <div className="footer-content-column col-12  ">
+          <div className="footer-content-column col-12 col-lg-6 ">
             <div className="footer-logo">
               <a className="footer-logo-link" href="#">
                 <img src="./images/logo.png" alt="logo" />
@@ -30,36 +30,50 @@ const Footer = () => {
                 2018 yılında Muğla Sıtkı Koçman Üniversitesinden mezun oldum. 2018 -2021 yılları arasında online danışmanlık hizmeti verdim. 2021 yılında Ankara’da Bi Diyet Beslenme Danışmanlığında ofis diyetisyeni olarak devam etti. 2022 yılında İzmir’e dönerken online hizmeti sürdürmeye başladım. 
                 2024 yılında arınma kampında diyetisyen olarak görev aldım. Şuan hala online olarak birçok kişiye beslenme hizmeti sunmaktayım.</p>
             </div>
-            
-          </div>
-        
-          <div className="footer-content-column col-12">
-          <div class="container">
-              <div>
+            <div>
                 <p> E-posta göndermek için </p>
                 <a className="footer-call-to-action-button button" href="mailto:dyt.sumeyyetop@gmail.com">Tıkla </a> 
               </div>
-              <form className='d-none'>
-                <div class="field" tabindex="1">
-                  <label for="username">
-                    <i class="far fa-user"></i>Adınız
-                  </label>
-                  <input name="username" type="text" placeholder="e.g. john doe" required />
+            
+          </div>
+        
+          <div className="footer-content-column col-12 col-lg-6">
+            <div class="container">
+                <div class="">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.045582454475!2d27.179104275169056!3d38.44041607182521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b963000cfc111f%3A0x6ef973156b309ace!2sPassa%20Plaza!5e0!3m2!1str!2str!4v1726923834871!5m2!1str!2str" 
+                    loading="lazy"
+                    width="100%"
+                    height="450"
+                    style={{ border: 0, borderRadius:"6px", marginTop:"20px"}}
+                    allowFullScreen=""
+                    aria-hidden="false"
+                    tabIndex="0"
+                    data-aos="fade-up"
+                    
+                />
                 </div>
-                <div class="field" tabindex="2">
-                  <label for="email">
-                    <i class="far fa-envelope"></i>E-mail Adresiniz
-                  </label>
-                  <input name="email" type="text" placeholder="email@domain.com" required />
-                </div>
-                <div class="field" tabindex="3">
-                  <label for="message">
-                    <i class="far fa-edit"></i>Mesajınız
-                  </label>
-                  <textarea name="message" placeholder="Mesajınızı buraya yazınız" required></textarea>
-                </div>
-                <a className="footer-call-to-action-button button" href="#" target="_self"> Gönder </a> 
-              </form>
+                {/* <form className='d-none'>
+                  <div class="field" tabindex="1">
+                    <label for="username">
+                      <i class="far fa-user"></i>Adınız
+                    </label>
+                    <input name="username" type="text" placeholder="e.g. john doe" required />
+                  </div>
+                  <div class="field" tabindex="2">
+                    <label for="email">
+                      <i class="far fa-envelope"></i>E-mail Adresiniz
+                    </label>
+                    <input name="email" type="text" placeholder="email@domain.com" required />
+                  </div>
+                  <div class="field" tabindex="3">
+                    <label for="message">
+                      <i class="far fa-edit"></i>Mesajınız
+                    </label>
+                    <textarea name="message" placeholder="Mesajınızı buraya yazınız" required></textarea>
+                  </div>
+                  <a className="footer-call-to-action-button button" href="#" target="_self"> Gönder </a> 
+                </form> */}
             </div>
           </div>
        </div>
