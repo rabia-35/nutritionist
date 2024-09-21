@@ -47,13 +47,13 @@ function Navbar() {
                 <div className="offcanvas-body">
                   <ul className="navbar-nav flex-grow-1 pe-3 ">
                     <li className="nav-item ">
-                      <a className="nav-link"  href="#">Home</a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#blogs">SSS</a>
+                      <a className="nav-link"  href="#">Yüz Yüze Görüşme</a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="#paket">Online Diyet Paketleri</a>
+                    </li>
+                    <li className="nav-item">
+                      <a className="nav-link" href="#blogs">SSS</a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="#comment">Yorumlar</a>
